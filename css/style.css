@@ -1,0 +1,98 @@
+header{
+    display: inline-block;
+    height: 950px;
+    width: 15%; 
+    background: url(../img/s.png);
+    margin: 0 100px 0 20px;
+    text-align: center;
+}
+
+header .perfil{
+    margin-top: 200px;
+}
+
+header .perfil img{
+    margin: 10px;
+    width: 60%;
+    border: 2px solid black;    
+    border-radius: 80px;
+}
+
+header .perfil .name{
+    color: white;
+    font-size: 200%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+header .info {
+    background: #b0bec5;
+    text-align: left;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+    border-top: 10px groove black;
+    border-bottom: 10px groove black;
+    padding: 12%;
+}
+
+header .info p{
+    padding: 4%;
+}
+
+header .info a{
+    padding: 4%;
+}
+
+
+main{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+
+.description{
+    padding: 2% 0 2% 0;
+    width: 80%;
+    text-align: justify;
+}
+
+main .title{
+    font-size: 30px;
+    padding: 2% 0 0 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+main .skills{
+    padding: 3% 0 0 0;
+    margin: 0 0px;
+    width: 940px;
+}
+
+main .skills .item{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+main .skills .item .name-s{
+    margin: 0px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+main .skills .item img{
+    margin: 10px;
+    width: 80%;
+}
+
+main .skills .item .description-s{
+    font-size: 15px;
+    text-align: justify;
+}
